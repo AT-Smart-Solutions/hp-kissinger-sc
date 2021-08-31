@@ -1,7 +1,8 @@
 body {
-	display: grid;
-	max-width: 99em;
-	grid-template-columns: 1fr 1fr 1fr;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
 }
 
 header,
